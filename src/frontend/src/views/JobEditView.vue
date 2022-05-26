@@ -169,8 +169,6 @@ export default {
 </style>
 
 <style lang="scss" scoped>
-@import "@/assets/colors.scss";
-
 .form-input {
   width: 30%;
 }
