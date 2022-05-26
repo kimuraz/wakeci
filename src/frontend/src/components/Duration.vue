@@ -15,9 +15,7 @@ import {
     toggleDurationMode,
 } from "@/duration";
 import vuex from "vuex";
-
-const ago = require("s-ago");
-
+import ago from "s-ago";
 
 export default {
     props: {

@@ -82,7 +82,8 @@ import axios from "axios";
 import {codemirror} from "vue-codemirror";
 import "codemirror/lib/codemirror.css";
 import "codemirror/mode/yaml/yaml.js";
-import description from "raw-loader!@/assets/configDescription.yaml";
+
+const description = import.meta.glob("@/assets/configDescription.yaml", {as: "raw"});
 
 export default {
     components: {

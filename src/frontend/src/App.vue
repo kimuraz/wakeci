@@ -55,7 +55,7 @@ export default {
     computed: {
         ...vuex.mapState(["ws", "auth", "durationMode"]),
         getVesion: function() {
-            return process.env.VUE_APP_VERSION || "0.0.0";
+            return import.meta.env.VITE_VERSION || "0.0.0";
         },
         getHeaderClass: function() {
             if (this.$store.state.ws.connected) {
