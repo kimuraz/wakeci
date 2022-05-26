@@ -5,6 +5,8 @@ import store from "./store/index";
 import Notifications from "vue-notification";
 import axios from "axios";
 
+import 'material-icons/iconfont/material-icons.css';
+
 
 Vue.prototype.$eventHub = new Vue();
 Vue.config.productionTip = false;
